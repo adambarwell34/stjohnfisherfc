@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Roboto&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Football Team</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <nav>
+      <img src="images/logo.png" alt="St John Fisher FC crest" class="nav-logo">
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="roster.html">Squad</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+  </nav>
+  
+  
+<section class="hero">
+<div class="hero-slide active" style="background-image: url('images/pic3.jpg')"></div>
+<div class="hero-slide" style="background-image: url('images/Pic1.jpg')"></div>
+<div class="hero-slide" style="background-image: url('images/pic2.jpg')"></div>
+<div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <h1>St John Fisher FC</h1>
+
+  </div>
+</section>
+      
+<section class="next-match">
+  <div class="next-match-info">
+    <span class="venue-tag">AWAY</span>
+    <span class="venue-name">Riverside Park</span>
+  </div>
+
+  <div class="next-match-teams">
+    <h2 class="team-name">Riverside FC</h2>
+    <span class="vs">V</span>
+    <div class="own-team">
+      <h2 class="team-name own-team-name">St John Fisher FC</h2>
+      <img src="images/logo.png" alt="St John Fisher FC crest" class="own-team-logo">
+    </div>
+  </div>
+
+  <div class="countdown-boxes">
+    <div class="countdown-unit"><span id="cd-days">00</span><small>Days</small></div>
+    <div class="countdown-unit"><span id="cd-hours">00</span><small>Hours</small></div>
+    <div class="countdown-unit"><span id="cd-mins">00</span><small>Mins</small></div>
+    <div class="countdown-unit"><span id="cd-secs">00</span><small>Secs</small></div>
+  </div>
+</section>
+
+<section class="home-row">
+  <div class="home-card">
+    <h3>Upcoming Fixtures</h3>
+    <ul class="mini-fixture-list">
+      <li><span class="mini-date">05/09</span> Balsall & Berkswell Hornets First</li>
+      <li><span class="mini-date">12/09</span> Glades</li>
+      <li><span class="mini-date">19/09</span> St John Fisher FC V Woodlands WMC First</li>
+    </ul>
+  </div>
+
+  <div class="home-divider">
+    <a href="contact.html" class="divider-link">
+      <img src="images/logo.png" alt="St John Fisher FC crest">
+      <span>Contact Us</span>
+    </a>
+  </div>
+
+  <div class="home-card">
+    <h3>League Table</h3>
+    <table class="mini-league-table">
+      <tr><th>Team</th><th>P</th><th>Pts</th></tr>
+      <tr><td>Team A</td><td>3</td><td>9</td></tr>
+      <tr class="own-row"><td>St John Fisher FC</td><td>3</td><td>7</td></tr>
+      <tr><td>Team C</td><td>3</td><td>6</td></tr>
+    </table>
+  </div>
+</section>
+
+<section class="carousel">
+  <div class="carousel-slide active">
+    <img src="https://picsum.photos/id/1015/1200/500" alt="Team photo 1">
+  </div>
+  <div class="carousel-slide">
+    <img src="https://picsum.photos/id/1016/1200/500" alt="Team photo 2">
+  </div>
+  <div class="carousel-slide">
+    <img src="https://picsum.photos/id/1018/1200/500" alt="Team photo 3">
+  </div>
+
+  <div class="carousel-dots">
+    <span class="dot active" data-index="0"></span>
+    <span class="dot" data-index="1"></span>
+    <span class="dot" data-index="2"></span>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="stat-item">
+    <span class="stat-number" data-target="10">0</span>
+    <p>Years as a Club</p>
+  </div>
+  <div class="stat-item">
+    <span class="stat-number" data-target="24">0</span>
+    <p>Players in the Squad</p>
+  </div>
+  <div class="stat-item">
+    <span class="stat-number" data-target="2017">0</span>
+    <p>Founded</p>
+  </div>
+</section>
+
+<img src="images/logo.png" alt="St John Fisher FC crest" class="section-logo">
+
+<section class="sponsors">
+  <h2>Our Sponsors</h2>
+  <div class="sponsor-logos">
+    <img src="images/oneills.png" alt="O'Neills">
+    <img src="images/focus.png" alt="Focus">
+    <img src="images/ims.png" alt="IMS">
+    <img src="images/4ps.png" alt="The Four Provinces">
+  </div>
+</section> 
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>

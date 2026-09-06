@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Roboto&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <title>Schedule - St John Fisher FC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <img src="images/logo.png" alt="St John Fisher FC crest" class="nav-logo">
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    <ul id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="roster.html">Squad</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="tabs">
+  <button class="tab-button active" data-tab="fixtures">Fixtures</button>
+  <button class="tab-button" data-tab="results">Results</button>
+</div>
+
+<section class="next-match">
+  <div class="next-match-info">
+    <span class="venue-tag">AWAY</span>
+    <span class="venue-name">Riverside Park</span>
+  </div>
+
+  <div class="next-match-teams">
+    <h2 class="team-name">Riverside FC</h2>
+    <span class="vs">V</span>
+    <div class="own-team">
+      <h2 class="team-name own-team-name">St John Fisher FC</h2>
+      <img src="images/logo.png" alt="St John Fisher FC crest" class="own-team-logo">
+    </div>
+  </div>
+
+  <div class="countdown-boxes">
+    <div class="countdown-unit"><span id="cd-days">00</span><small>Days</small></div>
+    <div class="countdown-unit"><span id="cd-hours">00</span><small>Hours</small></div>
+    <div class="countdown-unit"><span id="cd-mins">00</span><small>Mins</small></div>
+    <div class="countdown-unit"><span id="cd-secs">00</span><small>Secs</small></div>
+  </div>
+</section>
+
+</section>
+
+
+
+
+<!-- RESULTS TAB -->
+<div id="results" class="tab-content">
+
+  <div class="fixture-card">
+    <div class="fixture-date">29/08/26 – 14:15</div>
+    <div class="fixture-opponent">Central Ajax Senior Saturday Reserves</div>
+    <div class="fixture-location"><span class="location-icon"></span> Home</div>
+    <div class="fixture-result win">Won 8–0</div>
+  </div>
+
+  <div class="fixture-card">
+    <div class="fixture-date">22/08/26 – 14:15</div>
+    <div class="fixture-opponent">Windmill Sports & Social Club First</div>
+    <div class="fixture-location"><span class="location-icon"></span> Away</div>
+    <div class="fixture-result win">Won 2–0</div>
+  </div>
+
+</div> <!-- FIXED: this was missing -->
+
+<!-- FIXTURES TAB -->
+<div id="fixtures" class="tab-content active">
+
+  <div class="fixture-card away">
+    <div class="fixture-date">05/09/26 – 14:15</div>
+    <div class="fixture-opponent">Balsall & Berkswell Hornets First</div>
+    <div class="fixture-location"><span class="location-icon"></span> Away</div>
+    <div class="fixture-result">—</div>
+  </div>
+  
+  
+  <div class="fixture-card">
+    <div class="fixture-date">12/09/26 – 14:00</div>
+    <div class="fixture-opponent">Glades</div>
+    <div class="fixture-location"><span class="location-icon"></span> Away</div>
+    <div class="fixture-result">—</div>
+  </div>
+
+  <div class="fixture-card">
+    <div class="fixture-date">19/09/26 – 14:15</div>
+    <div class="fixture-opponent">Woodlands WMC First</div>
+    <div class="fixture-location"><span class="location-icon"></span> Home</div>
+    <div class="fixture-result">—</div>
+  </div>
+
+  <div class="fixture-card">
+    <div class="fixture-date">26/09/26 – 14:15</div>
+    <div class="fixture-opponent">Christ The King Reserves</div>
+    <div class="fixture-location"><span class="location-icon"></span> Away</div>
+    <div class="fixture-result">—</div>
+  </div>
+
+  <div class="fixture-card">
+    <div class="fixture-date">03/10/26 – 14:00</div>
+    <div class="fixture-opponent">Bourton & Frankton First</div>
+    <div class="fixture-location"><span class="location-icon"></span> Away</div>
+    <div class="fixture-result">—</div>
+  </div>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
